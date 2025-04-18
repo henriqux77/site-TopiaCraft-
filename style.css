@@ -1,45 +1,52 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #e6f7ff; /* azul bebê de fundo */
-  color: #003366; /* azul escuro para texto */
+  font-family: 'Roboto', sans-serif;
+  background-color: #ADD8E6;
+  color: #333;
 }
 
 header {
-  background-color: #b3e0ff; /* azul claro */
+  background-color: #5DADE2;
   padding: 20px;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-header h1 {
-  margin: 0;
-  color: #003366;
+.logo {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
 }
 
 nav a {
-  margin: 0 10px;
-  color: #003366;
+  color: #FFFFFF;
   text-decoration: none;
   font-weight: bold;
 }
 
 nav a:hover {
   text-decoration: underline;
-  color: #005b99;
 }
 
-main {
-  padding: 20px;
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.banner {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
 }
 
 footer {
-  background-color: #cceeff;
+  background-color: #F2F2F2;
   text-align: center;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  color: #003366;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-top: 50px;
 }
