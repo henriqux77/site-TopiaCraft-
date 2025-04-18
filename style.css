@@ -1,1 +1,45 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e6f7ff; /* azul bebê de fundo */
+  color: #003366; /* azul escuro para texto */
+}
 
+header {
+  background-color: #b3e0ff; /* azul claro */
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  color: #003366;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #003366;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #005b99;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #cceeff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #003366;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
